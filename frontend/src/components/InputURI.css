@@ -1,0 +1,35 @@
+.url_box{
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 800px;
+}
+.url_box >input{
+    padding: 0.5em;
+    margin: auto;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 300;
+    outline: none;
+  }
+  .url_box >button{
+    color: rgba(0, 0, 0, 0.849);
+    outline: none;
+    border: none;
+    margin: auto;
+    width: 80%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: tomato;
+  }
+  .url_box >button:hover{
+    background-color: tomato;
+  }
